@@ -127,12 +127,12 @@ public class MedianContainer {
         } else {
             return top.get(half - 1);
         }
-    }*/
+    }
 
     public Map<Integer, Integer> get_frequency_map() {
         //nao sei pegar quantas vezes algo aparece numa lista. so pensei em iterar ela
         //inteira e ir contando se o valor é igual ao int de comparar
-    }
+    }*/
 
     public int get_median_of_top(int n) {
         if (containerValues.isEmpty()) {
