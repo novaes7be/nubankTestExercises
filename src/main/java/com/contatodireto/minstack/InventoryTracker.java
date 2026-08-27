@@ -111,6 +111,7 @@ public class InventoryTracker {
         return count;
     }
 
+    /*
     public List<String> get_top_n_products(int n) {
         List<String> names = new ArrayList<>(inventory.keySet());
         names.sort(Comparator.comparingInt(name -> inventory.get(name)).reversed());
@@ -122,5 +123,5 @@ public class InventoryTracker {
         return names;
 
 
-    }
+    }*/
 }
